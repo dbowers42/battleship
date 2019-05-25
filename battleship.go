@@ -36,6 +36,7 @@ func main(){
 
 	setup(&board)
 
+	fmt.Println("BATTLESHIP")
 	board.Render()
 
 	for !board.GameOver() {
